@@ -1,19 +1,20 @@
 # SCT_CS-01
 
-A beginner-friendly Python image encryption tool using pixel manipulation (swap/add modes)
+This is a simple Python program for encrypting and decrypting text using the Caesar cipher algorithm for learning purposes during my internship.
 
 ## Features
+✅ User inputs a message and a shift value.  
+✅ Encrypts the message using Caesar cipher.  
+✅ Decrypts it back to the original text for validation.
 
-✅ Encrypts images using:
-- **Swap Mode**: Swaps pixels horizontally.
-- **Add Mode**: Adds a numeric key to each pixel (mod 256).
+## How to Run
 
-✅ Decrypts images back to the original.
+Ensure Python is installed (`python --version` in CMD).  
+Run the script:
+Enter your message and shift value when prompted.
 
-## Requirements
 
-- Python 3.x
-- Pillow
-- numpy
+
+
 
 
